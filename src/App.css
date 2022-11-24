@@ -1,9 +1,25 @@
-body{
-  background-color: antiquewhite;
+body {
+	background: linear-gradient(-45deg, #6cee52, #3cb1e7, #3dbceb, #1cecbc);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .pfp{
   width: 250px;
- margin-left: 76%; 
+ margin-left: 45%; 
  border-radius: 10%;
 
 }
@@ -29,7 +45,6 @@ flex-wrap: wrap;
 position:relative;
 margin-left: 10%;
 flex-direction: column;
-background-color: antiquewhite;
 color: darkgreen;
 font-size: 60px;
 width: max-content;
@@ -57,21 +72,22 @@ width: max-content;
   
 .picText{
   margin-left: 5%;
-  color: blue;
+  color: rgb(0, 0, 0);
   font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .picText2{
   margin-left: 6%;
-  color: blue;
+  color: rgb(0, 0, 0);
   font-size: 25px;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .picText3{
   margin-left: 7%;
-  color: blue;
+  color: rgb(0, 0, 0);
   font-size: 25px;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .workPic:hover{
   box-shadow: inset 0px 0px 8px rgba(12, 107, 231, 0.897), 0 0 15px rgb(12, 107, 231);
