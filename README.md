@@ -75,15 +75,12 @@ My portfolio with my projects and contact information
 
 ## Table of Contents
 
-- [Installation](#installation)
+
 - [Usage](#usage)
 - [Credits](#credits)
 - [Screenshot](#screenshot)
 - [License](#license)
 
-## Installation
-
-React 
 
 ## Usage
 
